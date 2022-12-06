@@ -5,11 +5,17 @@ import ship2 from "./assets/ship2.jpg"
 import ship3 from "./assets/ship3.jpg"
 import Hero from './components/Hero';
 import Slider from './components/Slider';
+import Navbar from './components/Navbar';
 
 
 function App() {
+  const navbarLinks = [
+    { url: "#", title: "Home" },
+    { url: "https://isirmalak.atlassian.net/jira/software/projects/GWC/boards/2", title: "Log In" },
+  ];
   return (
     <div className="App">
+      <Navbar navbarLinks={navbarLinks} />
       <Hero imageSrc={ship1} />
       <Slider
         imageSrc={ship2}
@@ -24,7 +30,6 @@ function App() {
         subtitle={"Good Will Cargo delivers fast, safe and sound sea cargo solutions.."}
         flipped={true}
       />
-      
     </div>
   );
 }
