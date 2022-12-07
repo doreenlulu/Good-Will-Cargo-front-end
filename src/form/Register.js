@@ -53,8 +53,8 @@ const Register = () => {
       .then((r) => {
         return r.json()
       })
-      .then(() => {
-        console.log(user, pwd) 
+      .then((data) => {
+        console.log(data) 
       })
     }
     

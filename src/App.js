@@ -3,20 +3,17 @@ import ship1 from "./assets/ship1.jpg"
 import ship2 from "./assets/ship2.jpg"
 import ship3 from "./assets/ship3.jpg"
 import Hero from './components/Hero';
-import Slider from './components/Slider';
 import Navbar from './components/Navbar';
+import Slider from './components/Slider';
 import Register from './form/Register'; 
-import { Route, Routes } from "react-router-dom"
+import {Route, Routes} from "react-router-dom";
 
 
 function App() {
-  const navbarLinks = [
-    { url: "#", title: "Home" },
-    { url: "", title: "Log In" },
-  ];
+  
   return (
     <div className="App">
-      <Navbar navbarLinks={navbarLinks} />
+       <Navbar />
       <Hero imageSrc={ship1} />
       <Slider
         imageSrc={ship2}
@@ -31,8 +28,9 @@ function App() {
         subtitle={"Good Will Cargo delivers fast, safe and sound sea cargo solutions.."}
         flipped={true}
       />
-      <Register />
-      
+      <Routes>
+        <Route path='/Register' element={<Register/>}/>
+      </Routes>
     </div>
   );
 }

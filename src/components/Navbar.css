@@ -1,4 +1,4 @@
-.navbar {
+.nav {
     position: sticky;
     top: 0px;
     height: 70px;
@@ -12,95 +12,36 @@
     z-index: 5;
   }
   
-  .navbar__logo {
+  .title {
     color: white;
     font-family: "MonteCarlo", cursive;
     font-size: 2.5rem;
   }
   
-  /*
-    This is the container for all the navbar links ( <ul> )
-    */
-  .navbar__list {
-    display: flex;
+  .nav ul {
+    padding: 0;
+    margin: 0;
     list-style: none;
+    display: flex;
+    gap: 35rem;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  /*
-    This is a single item ( <li> ) in the list
-    */
-  .navbar__item {
-    white-space: nowrap;
-  }
-  
-  /*
-    The anchor tag ( <a> ) for the navbar links
-    */
-  .navbar__link {
-    font-size: 0.85rem;
+  .nav link {
+    color: inherit;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 10px;
-    margin: 0px 5px;
-    border-style: solid;
-    border-width: 0px 0px 1px 0px;
-    border-color: transparent;
-    transition: 250ms;
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    padding: .25rem;
+    right: 100%;
   }
   
-  .navbar__link:hover {
-    border-color: white;
-    transition: 250ms;
+  .nav li.active {
+    background-color: #555;
   }
   
-  
-  
-  @media screen and (max-width: 800px) {
-    .navbar__list {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      top: 70px;
-      left: -100%;
-      width: 100%;
-      height: 300px;
-      position: absolute;
-      transition: all 0.5s ease;
-    }
-  
-    .navbar__list--active {
-      left: 0;
-    }
-  
-    .navbar__menu {
-      display: block;
-    }
-  
-    .navbar__item {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 0;
-      flex: 1;
-    }
-  
-    .navbar__link {
-      display: flex;
-      height: 100%;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      margin: 0px;
-      border-width: 0px;
-      background-color: black;
-      opacity: 0.75;
-    }
-  
-    .navbar__link:hover {
-      border-width: 0px;
-      opacity: 0.9;
-    }
+  .nav li:hover {
+    background-color: #777;
   }
