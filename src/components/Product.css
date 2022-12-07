@@ -1,0 +1,32 @@
+.products {
+  padding: 4rem;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.product__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.product__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.product__list {
+  margin-bottom: 24px;
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
