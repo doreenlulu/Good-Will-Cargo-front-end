@@ -24,7 +24,6 @@ const Register = () => {
     const [matchFocus, setMatchFocus] = useState(false);
 
     const [errMsg, setErrMsg] = useState('');
-    const [success, setSuccess] = useState(false);
 
 
     useEffect(() => {
@@ -43,13 +42,29 @@ const Register = () => {
     useEffect(() => {
         setErrMsg('');
     }, [user, pwd, matchPwd])
+    
+    const handleSubmit = async (e) =>{
+        e.preventDefault();
+        fetch('https://good-will-cargo-spark-production.up.railway.app/signup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({user, pwd, matchPwd}),
+    })
+      .then((r) => {
+        return r.json()
+      })
+      .then((user) => {
+        console.log(user) 
+      })
+    }
+    
 
 
   return (
     <section>
         <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
                     <h1>Register</h1>
-                    <form>
+                    <form onSubmit={handleSubmit}>
                     <label htmlFor="username">
                             Username:
                             <span className={validName ? "valid" : "hide"}>
