@@ -9,4 +9,4 @@ const Hero = ({imageSrc}) =>{
         <h1 className="hero_title">Shipping made simple.</h1>
     </div>
 }
-export default Hero;
+export default Hero; 
