@@ -34,9 +34,15 @@ function App() {
         subtitle={"Good Will Cargo delivers fast, safe and sound sea cargo solutions.."}
         flipped={true}
       />
-      <Routes>
-        <Route path = "/products" element={<Products />}></Route>
-      </Routes>
+
+      {/* <Products /> */}
+
+    <Router>
+        <Routes>
+          <Route path = "/products" element={<Products />}></Route>
+        </Routes>
+    </Router>
+    
     </div>
   );
 }
