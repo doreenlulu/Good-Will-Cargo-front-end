@@ -48,7 +48,7 @@ const Register = () => {
         fetch('https://good-will-cargo-spark-production.up.railway.app/signup', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({user, pwd, matchPwd}),
+      body: JSON.stringify({username:user, password:pwd, password_confirmation:matchPwd}),
     })
       .then((r) => {
         return r.json()
