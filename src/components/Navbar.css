@@ -54,11 +54,7 @@
     transition: 250ms;
   }
   
-  .navbar__menu {
-    color: white;
-    display: none;
-    cursor: pointer;
-  }
+  
   
   @media screen and (max-width: 800px) {
     .navbar__list {

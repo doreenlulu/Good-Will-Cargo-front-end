@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Slider from './components/Slider';
 import Navbar from './components/Navbar';
 import Register from './form/Register'; 
+import { Route, Routes } from "react-router-dom"
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         flipped={true}
       />
       <Register />
+      
     </div>
   );
 }
