@@ -6,6 +6,7 @@ import ship3 from "./assets/ship3.jpg"
 import Hero from './components/Hero';
 import Slider from './components/Slider';
 import Navbar from './components/Navbar';
+import Register from './form/Register';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         subtitle={"Good Will Cargo delivers fast, safe and sound sea cargo solutions.."}
         flipped={true}
       />
+      <Register />
     </div>
   );
 }
