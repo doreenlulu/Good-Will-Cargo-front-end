@@ -11,7 +11,7 @@ import Navbar from './components/Navbar';
 function App() {
   const navbarLinks = [
     { url: "#", title: "Home" },
-    { url: "https://isirmalak.atlassian.net/jira/software/projects/GWC/boards/2", title: "Log In" },
+    { url: "", title: "Log In" },
   ];
   return (
     <div className="App">
