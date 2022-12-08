@@ -9,14 +9,14 @@ import './App.css';
 // import Slider from './components/Slider';
 // import Register from './form/Register'; 
 // import {Route, Routes} from "react-router-dom";
-import Product from "./components/Product";
+import Products from "./components/Product";
 
 
 function App() {
   
   return (
     <div className="App">
-      <Product />
+      <Products />
        {/* <Navbar /> */}
     
       {/* <Routes> */}

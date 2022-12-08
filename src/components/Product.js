@@ -2,7 +2,7 @@ import React from "react";
 import "./Product.css";
 // import ship2 from "./assets/ship2.jpg"
 
-function Product () {
+function Products () {
     return (
 
         <div className='products'>
@@ -63,4 +63,4 @@ function Product () {
     </div>
     );
 }
-export default Product;
+export default Products;
