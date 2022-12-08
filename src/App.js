@@ -15,7 +15,7 @@ function App() {
     <div className="App">
        <Navbar />
      
-      <Routes>
+      {/* <Routes>
         <Route path='/Register' element={<Register/>}/>
         <Route path='/' element={<> <Hero imageSrc={ship1} />
       <Slider
@@ -25,7 +25,7 @@ function App() {
           "At Good Will Cargo, we offer tailored alternatives for the movement…"
         }
       />
-      <Slider
+      <Slider */}
         imageSrc={ship3}
         title={"Fast Shipping."}
         subtitle={"Good Will Cargo delivers fast, safe and sound sea cargo solutions.."}
