@@ -23,12 +23,12 @@ function App() {
             })
     })
   },[])
-//   return (
-//     <>
-//        <Nav/>
-//       <Body/>
-//     </>
-//   );
-// }
+  return (
+    <>
+       <Nav/>
+      <Body/>
+    </>
+  );
+}
 
 export default App;
