@@ -19,7 +19,7 @@ function Products({ products }) {
           </ul>
         </div>
 
-        <h2>Book a product, just one click away</h2>
+        <h2>Book a shipping, just one click away</h2>
       </div>
     </div>
   )
