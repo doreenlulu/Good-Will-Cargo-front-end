@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Product.css'
 // import ship2 from "./assets/ship2.jpg"
 
@@ -44,9 +45,11 @@ function Product({ cargoShip }) {
     rate_per_cargo,
   } = cargoShip;
 
+  const navigate = useNavigate();
   
   function handleBook(){
     console.log(id)
+    navigate(`/booking/${id}`);
   }
   
   return (
