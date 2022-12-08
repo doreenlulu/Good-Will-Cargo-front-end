@@ -3,7 +3,7 @@ import { useRef, useState, useEffect } from "react";
 import { faCheck, faTimes, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Register.css";
-
+import { useNavigate } from "react-router-dom";
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
@@ -26,6 +26,7 @@ const Register = () => {
 
     const [errMsg, setErrMsg] = useState('');
 
+    const navigate = useNavigate();
 
     useEffect(() => {
         userRef.current.focus();
@@ -55,8 +56,10 @@ const Register = () => {
         return r.json()
       })
       .then((data) => {
-        console.log(data) 
+        console.log(data);
+        navigate('/products');
       })
+      
     }
     
 

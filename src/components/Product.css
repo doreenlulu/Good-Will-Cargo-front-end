@@ -45,13 +45,21 @@ h2 {
 }
 
 .product-img {
-  position: relative;
-  width: 100%;
-  padding-top: 20%;
-  overflow: hidden;
+  width: 17rem;
+  height: 13rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 80%;
+  overflow: hidden; */
 }
 
 .product-details {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+}
+
+.product-div {
+  display: inline-block;
+  margin: 1rem 2rem;
 }
 
