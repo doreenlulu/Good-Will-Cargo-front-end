@@ -8,7 +8,6 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Register from './form/Register';
-import Product from './product/Product';
 import {Route, Routes} from "react-router-dom";
 import Products from './components/Product'
 import Booking from './components/Booking'

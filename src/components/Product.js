@@ -6,6 +6,9 @@ import './Product.css'
 function Products({ products }) {
   return (
     <div className="products">
+      {/* <nav>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGsVWjEM9oQs4vgDuJImY62Gola81e2cCCyj9ct6bhUuCca2EzQNGCUwLY5MuZczIdYg&usqp=CAU" />
+      </nav> */}
       <h1>PRODUCTS AVAILABLE</h1>
       <div className="product__container">
         <div className="product__wrapper">
@@ -16,7 +19,7 @@ function Products({ products }) {
           </ul>
         </div>
 
-        <h2>Products available at your disposal</h2>
+        <h2>Book a product, just one click away</h2>
       </div>
     </div>
   )
