@@ -4,20 +4,22 @@ import "./Product.css";
 
 function Product () {
     return (
+
         <div className='products'>
           <h1>PRODUCTS AVAILABLE</h1>
           <div className='product__container'>
+
           <div className='product__wrapper'>
             
           <ul className='product__list'>
             <Product
-              src='/home/doreen/Good-Will-Cargo-front-end/src/assets/ship1.jpg'
+              src='https://upload.wikimedia.org/wikipedia/commons/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg'
               text='product.'
               label='product'
               path='/products'
             />
             <Product
-              src='/home/doreen/Good-Will-Cargo-front-end/src/assets/ship1.jpg'
+              src='https://upload.wikimedia.org/wikipedia/commons/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg'
               text='product'
               label='product'
               path='/products'
@@ -26,13 +28,13 @@ function Product () {
 
           <ul className='product__list'>
             <Product
-              src='/home/doreen/Good-Will-Cargo-front-end/src/assets/ship1.jpg'
+              src='https://upload.wikimedia.org/wikipedia/commons/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg'
               text='product'
               label='product'
               path='/products'
             />
             <Product
-              src='/home/doreen/Good-Will-Cargo-front-end/src/assets/ship1.jpg'
+              src='https://upload.wikimedia.org/wikipedia/commons/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg'
               text='product'
               label='product'
               path='/products'
@@ -41,13 +43,13 @@ function Product () {
 
           <ul className='product__list'>
             <Product
-              src='/home/doreen/Good-Will-Cargo-front-end/src/assets/ship1.jpg'
+              src='https://upload.wikimedia.org/wikipedia/commons/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg'
               text='product'
               label='product'
               path='/products'
             />
             <Product
-              src='/home/doreen/Good-Will-Cargo-front-end/src/assets/ship1.jpg'
+              src='https://upload.wikimedia.org/wikipedia/commons/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg'
               text='product'
               label='product'
               path='/products'
