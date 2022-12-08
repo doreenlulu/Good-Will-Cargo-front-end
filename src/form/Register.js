@@ -61,7 +61,8 @@ const Register = () => {
 
 
   return (
-    <section>
+    <section className="APP">
+        <div className="isir">
         <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
                     <h1>Register</h1>
                     <form onSubmit={handleSubmit}>
@@ -144,6 +145,7 @@ const Register = () => {
 
 
                     </form>
+                    </div>
     </section>
   )
 }
