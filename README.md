@@ -26,7 +26,7 @@ cd to your cloned repository
 run either code . or atom . based on your prefered text editor.
 
 # Technologies Used
-Most of the fuctionalities in this app was achieved using React js.
+Most of the functionalities in this app was achieved using React js.
 
 React JS, CSS, Bootstrap, Reactstrap and Markdown.
 
