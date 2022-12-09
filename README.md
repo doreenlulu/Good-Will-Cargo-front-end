@@ -1,11 +1,12 @@
 # GOOD WILL CARGO APP
 
 # AUTHORS
-Isir Malak
-Doreen Lulu
-James Githire
-Milton Kihara
-Pauline Gitonga
+
+# Isir Malak
+# Doreen Lulu
+# James Githire
+# Milton Kihara
+# Pauline Gitonga
 
 
 # Project Description
