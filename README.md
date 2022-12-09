@@ -1,3 +1,46 @@
+# GOOD WILL CARGO APP
+
+# AUTHORS
+Isir Malak
+Doreen Lulu
+James Githire
+Milton Kihara
+Pauline Gitonga
+
+
+# Project Description
+
+This a ship freight cargo application where a user is able to book a space on a ship depending on their cargo size.
+
+# Link Link
+
+
+
+# Set Up and Installation Requirements
+Open Terminal {Ctrl+Alt+T}
+
+git clone https://github.com/isir10/Good-Will-Cargo-front-end.git
+
+cd to your cloned repository
+
+run either code . or atom . based on your prefered text editor.
+
+# Technologies Used
+Most of the fuctionalities in this app was achieved using React js.
+
+React JS, CSS, Bootstrap, Reactstrap and Markdown.
+
+
+# Support and contact details
+Any contribution and input would be highly appreciated, please reach me @ isir.malak@student.moringaschool.com
+
+
+# License
+{MIT} Copyright (c) {2022} {Good Will Cargo}
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
