@@ -15,7 +15,7 @@ function Navbar() {
                 <CustomLink to='Register'>Register</CustomLink>
             </li>
             <li>
-                <CustomLink to='/Product'>Product</CustomLink>
+                <CustomLink to='/products'>Product</CustomLink>
             </li>
         </ul>
 
