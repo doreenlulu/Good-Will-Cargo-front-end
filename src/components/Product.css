@@ -63,3 +63,18 @@ h2 {
   margin: 1rem 2rem;
 }
 
+.request-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+
+
+}
+.send-request {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}

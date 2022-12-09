@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import "./Product.css"
 
 export default function Booking(){
     let count=0;
@@ -23,9 +24,9 @@ export default function Booking(){
     
     return(
         <>
-        <form style={{marginTop:"17rem"}} onSubmit={handleSubmit}>
+        <form className="request-button" style={{marginTop:"17rem"}} onSubmit={handleSubmit}>
             <input placeholder="No. of Containers" type="number" onChange={e=>{count=e.target.value}}/>
-            <button>Send Request</button>
+            <button className="send-request">Send Request</button>
         </form>
         </>
     );
