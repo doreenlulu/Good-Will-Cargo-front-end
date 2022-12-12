@@ -56,11 +56,13 @@ const Register = () => {
         return r.json()
       })
       .then((data) => {
+        localStorage.setItem("jwt", data)
         console.log(data);
         navigate('/products');
       })
       
     }
+    
     
 
 
